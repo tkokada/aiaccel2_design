@@ -1,1 +1,0 @@
-# aiaccel2_design

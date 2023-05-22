@@ -1,0 +1,33 @@
+id: "16fd2706-8baf-433b-82eb-8c7fada847da"
+infrastructure_type: "local"
+algorithm: "random"
+num_trials: 10
+hyperparameter_definition_set:
+  id: "16fd2706-8baf-433b-82eb-8c7fada847db"
+  hyperparameter_definitions:
+    -
+      id: "16fd2706-8baf-433b-82eb-8c7fada847dc"
+      name:
+        value: "x1"
+      data_type: "float"
+      numeric_range:
+        lower: -5.0
+        upper: 5.0
+      choices:
+        values: []
+      initial:
+        value: -5.0
+    -
+      id: "16fd2706-8baf-433b-82eb-8c7fada847dd"
+      name:
+        value: "x2"
+      data_type: "float"
+      numeric_range:
+        lower: -5.0
+        upper: 5.0
+      choices:
+        values: []
+      initial:
+        value: -5.0
+seed: 0
+user_program: null
